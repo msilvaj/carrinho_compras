@@ -1,0 +1,6 @@
+# Schedule for Sidekiq Cron jobs
+manage_abandoned_carts:
+  cron: "0 * * * *"  # Run every hour
+  class: "ManageAbandonedCartsJob"
+  queue: default
+  description: "Mark carts as abandoned after 3 hours and delete after 7 days"
