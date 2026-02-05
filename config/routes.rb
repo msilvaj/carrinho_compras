@@ -17,5 +17,5 @@ Rails.application.routes.draw do
   delete "/cart/:product_id", to: "carts#destroy_item"
 
   # Defines the root path route ("/")
-  # root "posts#index"
+  root "home#index"
 end
