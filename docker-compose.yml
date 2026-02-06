@@ -31,7 +31,7 @@ services:
 
   sidekiq:
     build: .
-    command: bundle exec sidekiq
+    command: bash -c "bundle install && bundle exec sidekiq"
     volumes:
       - .:/rails
     environment:
