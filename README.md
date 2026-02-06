@@ -91,8 +91,8 @@ A RESTful API for managing shopping carts in an e-commerce application, built wi
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd RDStation_project
+git clone git@github.com:msilvaj/carrinho_compras.git
+cd carrinho_compras
 ```
 
 2. **Build and start containers**
